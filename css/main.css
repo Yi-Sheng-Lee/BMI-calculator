@@ -1,0 +1,159 @@
+body{
+
+}
+.headerBg{
+	background: #424242;
+
+}
+.footerBg{
+	background: #FFD366;
+}
+.lbColor{
+	font-family: .AppleSystemUIFont;
+	font-size: 18px;
+	color: #FFD366;
+}
+.send{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: #FFD366;
+	font-size: 24px;
+}
+.send:hover{
+	background: #FFD366;
+	box-shadow: 0 1px 6px 3px rgba(255,196,50,0.64);
+}
+.send:active{
+	background: #DEA921;
+}
+
+
+/***** BMI Record color,font-Color and fontSize *****/
+.f-22{
+	font-size: 22px;
+}
+.textSize{
+	font-size: 22px;
+}
+.tag{
+	width: 2px;
+	height: 7px;
+}
+.less-color{
+	border-left:7px solid #31BAF9;
+	box-shadow: 2px 0 3px 0 rgba(49,186,249,0.29);
+}
+.less-border-color{
+	border:7px solid #31BAF9;
+	box-shadow: 2px 0 3px 0 rgba(49,186,249,0.29);
+}
+.less-color-bg{
+	background: #31BAF9;
+}
+.less-color-text{
+	color: #31BAF9;
+}
+
+.ldeal-color{
+	border-left:7px solid  #86D73F;
+	box-shadow: 2px 0 3px 0 rgba(134,215,63,0.29);
+}
+.ldeal-border-color{
+	border:7px solid  #86D73F;
+	box-shadow: 2px 0 3px 0 rgba(134,215,63,0.29);
+}
+.ldeal-color-bg{
+	background: #86D73F;
+}
+.ldeal-color-text{
+	color: #86D73F;
+}
+.fat-color{
+	border-left:7px solid  #FF982D;
+	box-shadow: 2px 0 3px 0 rgba(255,152,45,0.29);
+}
+.fat-border-color{
+	border:7px solid  #FF982D;
+	box-shadow: 2px 0 3px 0 rgba(255,152,45,0.29);
+}
+.fat-color-bg{
+	background: #FF982D;
+}
+.fat-color-text{
+	color: #FF982D;
+}
+.less-fat-color{
+	border-left:7px solid  #FF6C03;
+	box-shadow: 2px 0 3px 0 rgba(255,108,3,0.29);
+}
+.less-fat-border-color{
+	border:7px solid  #FF6C03;
+	box-shadow: 2px 0 3px 0 rgba(255,108,3,0.29);
+}
+.less-fat-color-bg{
+	background: #FF6C03;
+}
+.less-fat-color-text{
+	color: #FF6C03;
+}
+.middle-fat-color{
+	border-left:7px solid  #FF6C03;
+	box-shadow: 2px 0 3px 0 rgba(255,108,3,0.29);
+}
+.middle-border-color{
+	border:7px solid  #FF6C03;
+	box-shadow: 2px 0 3px 0 rgba(255,108,3,0.29);
+}
+.middle-fat-color-bg{
+	background: #FF6C03;
+}
+.middle-fat-color-text{
+	color: #FF6C03;
+}
+.much-fat-color{
+	border-left:7px solid  #FF1200;
+	box-shadow: 2px 0 3px 0 rgba(255,18,0,0.29);
+}
+.much-fat-border-color{
+	border:7px solid  #FF1200;
+	box-shadow: 2px 0 3px 0 rgba(255,18,0,0.29);
+}
+.much-fat-color-bg{
+	background: #FF1200;
+}
+.much-fat-color-text{
+	color: #FF1200;
+}
+
+/***** BTN *****/
+#circle-icon{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding-top: 30px;
+    line-height: 1;
+    background: #3b3b3b;
+}
+#reverse-icon{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	 border-radius: 50%;
+	top: calc(100% - 30px);
+	left: calc(100% - 30px);
+	cursor: pointer;
+	transition: ease .3s;
+}
+#reverse-icon:hover{
+	transform: rotate(660deg);
+
+}
+@media screen and (max-width:600px) {
+	.d-forMobile-flex{
+		display: flex;
+	}
+}
+
+.BMIList>
